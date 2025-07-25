@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DentEazy | Dr. Vidhi Shah</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="DentEazy Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#appointment" class="btn">Book Appointment</a>
+  </header>
+
+  <section class="hero">
+    <h1>Bringing Smiles to Life in Kandivali East</h1>
+    <p>Your Trusted Dental Care by Dr. Vidhi Shah</p>
+    <a href="#appointment" class="btn">Book Now</a>
+  </section>
+
+  <section id="about">
+    <h2>About Dr. Vidhi</h2>
+    <img src="images/dentist.jpg" alt="Dr. Vidhi Shah" class="about-image" />
+    <p>Dr. Vidhi Shah has over a year of experience at Viraj Sanghvi Clinic. Her calm demeanor and skilled hands make her highly appreciated by patients. At DentEazy, her mission is to provide high-quality, accessible dental care.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="card"><img src="images/aligners.jpg" alt="Aligners" /><h3>Aligners</h3><p>Clear aligners for discreet teeth straightening. Comfortable and removable.</p></div>
+      <div class="card"><img src="images/whitening.jpg" alt="Teeth Whitening" /><h3>Teeth Whitening</h3><p>Brighten your smile with safe and effective whitening treatments.</p></div>
+      <div class="card"><img src="images/root-canal.jpg" alt="Root Canal" /><h3>Root Canal</h3><p>Painless treatment to save infected teeth and relieve discomfort.</p></div>
+      <div class="card"><img src="images/implants.jpg" alt="Dental Implants" /><h3>Dental Implants</h3><p>Permanent replacements for missing teeth with natural appearance.</p></div>
+      <div class="card"><img src="images/smile-design.jpg" alt="Smile Designing" /><h3>Smile Designing</h3><p>Personalized cosmetic enhancements for a confident smile.</p></div>
+      <div class="card"><img src="images/pediatric.jpg" alt="Pediatric Dentistry" /><h3>Pediatric Dentistry</h3><p>Gentle dental care for children with a focus on prevention.</p></div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      <p>"Best dental experience! Dr. Vidhi has magic in her hands. Highly recommended!"</p>
+      <cite>– Chinki</cite>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>📍 Address:</strong> Kandivali East, Mumbai</p>
+    <p><strong>📞 Phone:</strong> +91 87798 38736</p>
+  </section>
+
+  <section id="appointment">
+    <h2>Book Your Appointment</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Enter Name" required />
+      <input type="tel" id="phone" placeholder="Enter Mobile Number" required />
+      <input type="email" id="email" placeholder="Enter Email Id" required />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

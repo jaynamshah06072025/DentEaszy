@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #f0faff;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(to right, #a0e0ff, #d0ecff);
+  flex-wrap: wrap;
+}
+.logo {
+  height: 60px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: 600;
+}
+.btn {
+  background: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #005fa3;
+}
+section.hero {
+  background: url('../images/dental_background.jpg') no-repeat center center;
+  background-size: cover;
+  color: #003366;
+  padding: 100px 20px;
+  text-align: center;
+}
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0077cc;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button[type="submit"] {
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
